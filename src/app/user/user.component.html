@@ -1,5 +1,5 @@
-<ng-container>
-  <div class="d-flex align-items-center justicy-content-center bg-gray-100">
-
+<ng-container *ngIf="{ user: user$ | async } as vm">
+  <div class="w-100 h-100 d-flex align-items-center justify-content-center">
+    <div>{{ vm.user }}</div>
   </div>
 </ng-container>
