@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { UserService } from './user.service';
 import { CommonModule } from '@angular/common';
-import { tap } from 'rxjs';
 
 @Component({
   selector: 'app-user',
